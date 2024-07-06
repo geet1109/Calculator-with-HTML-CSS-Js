@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.outerdiv{
+    background-color: white;
+    height: 100vh;
+    width: 40ch;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.calculation{
+       padding: 10px; 
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+.icons{
+    background-color: yellowgreen;   
+    height: 20px;
+    margin-left: 0;
+    text-align: left;
+    padding: 10px;
+    margin-top: 0;
+   display: block;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    /* background-color: aqua; */
+    /* color: black; */
+}
+.icons li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.outerbox{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 15px;
+}
+.box{
+    background-color: rgba(150, 135, 135, 0.514);
+    padding: 10px;
+    border-radius: 40%;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bluebox{
+    background-color: rgb(162, 161, 224);
+}
